@@ -38,7 +38,7 @@ This example plots total stopping time in the case "3n + 1" for integers from 1 
 
 **Example 4**
 
-This example plots total stopping time in the case `7n + 1` for integers from 1 to 1e4 in linear scales.
+This example plots total stopping time in the case "7n + 1" for integers from 1 to 1e4 in linear scales.
 
 `main_plot(prime = 7, max_value = 10000)`
 
