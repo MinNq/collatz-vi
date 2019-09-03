@@ -1,2 +1,48 @@
-# collatz-vi
-Visualization for the Collatz conjecture and one of its generalization.
+# Visualization for the Collatz conjecture and one of its generalization
+
+This is my visualization and source code in Python for the Collatz conjecture and a generalization proposed by Zhang Zhongfu and Yang Shiming. 
+
+## Preliminaries
+
+- **The Collatz conjecture**: [Wikipedia article],
+- **Zhongfu and Shiming's generalization**: [See more in the Introduction section of this paper].
+
+## Important notes
+The visualization ignores cases where total stopping time exceeds a certain threshold (automatically set 1e4) to save computational resources.
+
+## Visualization examples
+
+**Example 1**
+
+This example plots total stopping time in the original Collatz conjecture (`prime = 3`) for integers from 1 to 1e5 in linear scales.
+
+`main_plot(prime = 3, max_value = 100000)`
+
+![ex1](Examples/ex1.png)
+
+**Example 2**
+
+This example plots total stopping time in the case `prime = 5` for integers from 1 to 1e5 in linear scales.
+
+`main_plot(prime = 5, max_value = 100000)`
+
+![ex2](Examples/ex2.png)
+
+**Example 3**
+
+This example plots total stopping time in the case `prime = 3` for integers from 1 to 1e5. x axis is in log scale.
+
+`main_plot(prime = 3, max_value = 100000, log_scale = (True, False))`
+
+![ex3](Examples/ex3.png)
+
+**Example 4**
+
+This example plots total stopping time in the case `prime = 7` for integers from 1 to 1e4 in linear scales.
+
+`main_plot(prime = 7, max_value = 10000)`
+
+![ex4](Examples/ex4.png)
+
+[Wikipedia article]: https://en.wikipedia.org/wiki/Collatz_conjecture
+[See more in the Introduction section of this paper]: http://web.mit.edu/rsi/www/pdfs/papers/2004/2004-lesjohn.pdf
