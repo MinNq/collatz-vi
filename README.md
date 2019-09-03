@@ -14,7 +14,7 @@ The visualization ignores cases where total stopping time exceeds a certain thre
 
 **Example 1**
 
-This example plots total stopping time in the original Collatz conjecture (`prime = 3`) for integers from 1 to 1e5 in linear scales.
+This example plots total stopping time in the original Collatz conjecture for integers from 1 to 1e5 in linear scales.
 
 `main_plot(prime = 3, max_value = 100000)`
 
@@ -22,7 +22,7 @@ This example plots total stopping time in the original Collatz conjecture (`prim
 
 **Example 2**
 
-This example plots total stopping time in the case `prime = 5` for integers from 1 to 1e5 in linear scales.
+This example plots total stopping time in the case "5n + 1" for integers from 1 to 1e5 in linear scales.
 
 `main_plot(prime = 5, max_value = 100000)`
 
@@ -30,7 +30,7 @@ This example plots total stopping time in the case `prime = 5` for integers from
 
 **Example 3**
 
-This example plots total stopping time in the case `prime = 3` for integers from 1 to 1e5. x axis is in log scale.
+This example plots total stopping time in the case "3n + 1" for integers from 1 to 1e5. x axis is in log scale.
 
 `main_plot(prime = 3, max_value = 100000, log_scale = (True, False))`
 
@@ -38,7 +38,7 @@ This example plots total stopping time in the case `prime = 3` for integers from
 
 **Example 4**
 
-This example plots total stopping time in the case `prime = 7` for integers from 1 to 1e4 in linear scales.
+This example plots total stopping time in the case `7n + 1` for integers from 1 to 1e4 in linear scales.
 
 `main_plot(prime = 7, max_value = 10000)`
 
