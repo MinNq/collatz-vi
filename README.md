@@ -1,4 +1,4 @@
-# Visualization for Collatz conjecture and its generalization
+# Visualization of Collatz conjecture and its generalization
 
 This is my visualization and Python source code for Collatz conjecture and a generalization proposed by Zhang Zhongfu and Yang Shiming. 
 
@@ -6,11 +6,12 @@ This is my visualization and Python source code for Collatz conjecture and a gen
 - [Preliminaries](#preliminaries)
 - [Important note](#important-note)
 - [Examples](#examples)
+- [References](#references)
 
 ## Preliminaries
 
 - **Collatz conjecture**: [Wikipedia article]
-- **Zhongfu and Shiming's generalization**: Introduction section of [this paper].
+- **Zhongfu and Shiming's generalization**: Introduction of [this paper].
 
 ## Important note
 
@@ -49,6 +50,10 @@ This example plots total stopping time in the case "7n + 1" for integers from 1 
 `main_plot(prime = 7, max_value = 10000)`
 
 ![ex4](Examples/ex4.png)
+
+## References
+
+[1]J. Lesieutre, *'On a Generalization of the Collatz Conjecture’*, p. 31.
 
 [Wikipedia article]: https://en.wikipedia.org/wiki/Collatz_conjecture
 [this paper]: http://web.mit.edu/rsi/www/pdfs/papers/2004/2004-lesjohn.pdf
