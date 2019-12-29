@@ -9,7 +9,7 @@ This is my visualization and Python source code for Collatz conjecture and a gen
 
 ## Preliminaries
 
-- **The Collatz conjecture**: [Wikipedia article]
+- **Collatz conjecture**: [Wikipedia article]
 - **Zhongfu and Shiming's generalization**: Introduction section of [this paper].
 
 ## Important note
