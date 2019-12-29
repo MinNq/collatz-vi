@@ -1,6 +1,6 @@
-# Visualization for the Collatz conjecture and its generalization
+# Visualization for Collatz conjecture and its generalization
 
-This is my visualization and source code in Python for the Collatz conjecture and a generalization proposed by Zhang Zhongfu and Yang Shiming. 
+This is my visualization and Python source code for Collatz conjecture and a generalization proposed by Zhang Zhongfu and Yang Shiming. 
 
 ## Contents
 - [Preliminaries](#preliminaries)
@@ -10,7 +10,7 @@ This is my visualization and source code in Python for the Collatz conjecture an
 ## Preliminaries
 
 - **The Collatz conjecture**: [Wikipedia article]
-- **Zhongfu and Shiming's generalization**: See more in the Introduction section of [this paper].
+- **Zhongfu and Shiming's generalization**: Introduction section of [this paper].
 
 ## Important note
 
