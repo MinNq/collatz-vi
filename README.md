@@ -53,7 +53,7 @@ This example plots total stopping time in the case "7n + 1" for integers from 1 
 
 ## References
 
-[1]J. Lesieutre, *'On a Generalization of the Collatz Conjecture’*, p. 31.
+[1]J. Lesieutre, 'On a Generalization of the Collatz Conjecture’, p. 31.
 
 [Wikipedia article]: https://en.wikipedia.org/wiki/Collatz_conjecture
 [this paper]: http://web.mit.edu/rsi/www/pdfs/papers/2004/2004-lesjohn.pdf
