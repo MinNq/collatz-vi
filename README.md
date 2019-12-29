@@ -2,15 +2,21 @@
 
 This is my visualization and source code in Python for the Collatz conjecture and a generalization proposed by Zhang Zhongfu and Yang Shiming. 
 
+## Contents
+- [Preliminaries](#preliminaries)
+- [Important note](#important-note)
+- [Examples](#examples)
+
 ## Preliminaries
 
-- **The Collatz conjecture**: [Wikipedia article],
-- **Zhongfu and Shiming's generalization**: [See more in the Introduction section of this paper].
+- **The Collatz conjecture**: [Wikipedia article]
+- **Zhongfu and Shiming's generalization**: See more in the Introduction section of [this paper].
 
-## Important notes
+## Important note
+
 The visualization ignores cases where total stopping time exceeds a certain threshold (automatically set 1e4) to save computational resources.
 
-## Visualization examples
+## Examples
 
 **Example 1**
 
@@ -45,4 +51,4 @@ This example plots total stopping time in the case "7n + 1" for integers from 1 
 ![ex4](Examples/ex4.png)
 
 [Wikipedia article]: https://en.wikipedia.org/wiki/Collatz_conjecture
-[See more in the Introduction section of this paper]: http://web.mit.edu/rsi/www/pdfs/papers/2004/2004-lesjohn.pdf
+[this paper]: http://web.mit.edu/rsi/www/pdfs/papers/2004/2004-lesjohn.pdf
