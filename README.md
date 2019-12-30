@@ -1,6 +1,6 @@
 # Visualization of Collatz conjecture and its generalization
 
-This is my visualization and Python source code for Collatz conjecture and a generalization proposed by Zhang Zhongfu and Yang Shiming. Corresponding blog version could be found [here](https://minnq.github.io/coding%20practice/2019/09/03/collatz/)
+This is my visualization and Python source code for Collatz conjecture and a generalization proposed by Zhang Zhongfu and Yang Shiming. Corresponding blog version could be found [here](https://minnq.github.io/coding%20practice/2019/09/03/collatz/).
 
 ## Contents
 - [Preliminaries](#preliminaries)
