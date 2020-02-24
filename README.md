@@ -1,6 +1,6 @@
-# Visualization of Collatz conjecture and its generalization
+# Visualization of a generalization on Collatz conjecture
 
-This is my visualization and Python source code for Collatz conjecture and a generalization proposed by Zhang Zhongfu and Yang Shiming. See also my blog post, which is more detailed, [here].
+This is my visualization for a generalization on Collatz conjecture proposed by Zhang Zhongfu and Yang Shiming, together with Python source code. See also my blog post, which is more detailed, [here].
 
 ## Contents
 - [Preliminaries](#preliminaries)
@@ -15,7 +15,7 @@ This is my visualization and Python source code for Collatz conjecture and a gen
 ## Important notes
 
 - The visualization ignores cases where total stopping time exceeds a certain threshold (automatically set 1e4) to save computational resources.
-- Parameter `log_scale` of the `main_plot` function allows log scale and linear scale visualization preferences. 
+- Collatz conjecture is usually called the "3n + 1" conjecture due to the function used for generating its concerned sequence of natural numbers. Following the same pattern, I denote the generalized cases by "5n + 1" and "7n + 1" in the upcoming examples.
 
 ## Examples
 
@@ -53,7 +53,7 @@ This example plots total stopping time in the case "7n + 1" for integers from 1 
 
 ## References
 
-[1]J. Lesieutre, 'On a Generalization of the Collatz Conjecture’, p. 31.
+[1] J. Lesieutre, 'On a Generalization of the Collatz Conjecture’, p. 31.
 
 [here]: https://minnq.github.io/coding%20practice/2019/09/03/collatz/
 [**Collatz conjecture** and **Zhongfu and Shiming's generalization**]: https://minnq.github.io/website/visualization/2019-09-03/collatz.html#preliminaries
