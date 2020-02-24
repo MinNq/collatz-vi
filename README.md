@@ -1,21 +1,21 @@
 # Visualization of Collatz conjecture and its generalization
 
-This is my visualization and Python source code for Collatz conjecture and a generalization proposed by Zhang Zhongfu and Yang Shiming. Corresponding blog version could be found [here](https://minnq.github.io/coding%20practice/2019/09/03/collatz/).
+This is my visualization and Python source code for Collatz conjecture and a generalization proposed by Zhang Zhongfu and Yang Shiming. See also my blog post, which is more detailed, [here].
 
 ## Contents
 - [Preliminaries](#preliminaries)
-- [Important note](#important-note)
+- [Important notes](#important-notes)
 - [Examples](#examples)
 - [References](#references)
 
 ## Preliminaries
 
-- **Collatz conjecture**: [Wikipedia article]
-- **Zhongfu and Shiming's generalization**: Introduction of [this paper].
+[**Collatz conjecture** and **Zhongfu and Shiming's generalization**]
 
-## Important note
+## Important notes
 
-The visualization ignores cases where total stopping time exceeds a certain threshold (automatically set 1e4) to save computational resources.
+- The visualization ignores cases where total stopping time exceeds a certain threshold (automatically set 1e4) to save computational resources.
+- Parameter `log_scale` of the `main_plot` function allows log scale and linear scale visualization preferences. 
 
 ## Examples
 
@@ -55,5 +55,5 @@ This example plots total stopping time in the case "7n + 1" for integers from 1 
 
 [1]J. Lesieutre, 'On a Generalization of the Collatz Conjecture’, p. 31.
 
-[Wikipedia article]: https://en.wikipedia.org/wiki/Collatz_conjecture
-[this paper]: http://web.mit.edu/rsi/www/pdfs/papers/2004/2004-lesjohn.pdf
+[here]: https://minnq.github.io/coding%20practice/2019/09/03/collatz/
+[**Collatz conjecture** and **Zhongfu and Shiming's generalization**]: https://minnq.github.io/website/visualization/2019-09-03/collatz.html#preliminaries
