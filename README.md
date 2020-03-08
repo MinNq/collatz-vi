@@ -55,5 +55,5 @@ This example plots total stopping time in the case "7n + 1" for integers from 1 
 
 [1] J. Lesieutre, 'On a Generalization of the Collatz Conjecture’, p. 31.
 
-[here]: https://minnq.github.io/visualization/2019-09-03/collatz.html
-[**Collatz conjecture** and **Zhongfu and Shiming's generalization**]: https://minnq.github.io/visualization/2019-09-03/collatz.html#preliminaries
+[here]: https://minnq.github.io/blog/2019-09-03/collatz.html
+[**Collatz conjecture** and **Zhongfu and Shiming's generalization**]: https://minnq.github.io/blog/2019-09-03/collatz.html#preliminaries
